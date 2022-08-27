@@ -11,7 +11,7 @@ import SwiftUI
 struct GenieAladdinApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MyTabView()
         }
     }
 }

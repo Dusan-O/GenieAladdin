@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2F164D9828BA931200B56ACC /* GenieAladdinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D9728BA931200B56ACC /* GenieAladdinApp.swift */; };
-		2F164D9A28BA931200B56ACC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D9928BA931200B56ACC /* ContentView.swift */; };
 		2F164D9C28BA931500B56ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F164D9B28BA931500B56ACC /* Assets.xcassets */; };
 		2F164D9F28BA931500B56ACC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F164D9E28BA931500B56ACC /* Preview Assets.xcassets */; };
+		2F164DA628BA937B00B56ACC /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DA528BA937B00B56ACC /* MyTabView.swift */; };
+		2F164DA828BA93B500B56ACC /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DA728BA93B500B56ACC /* HomePageView.swift */; };
+		2F164DAA28BA93C600B56ACC /* WishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DA928BA93C600B56ACC /* WishesView.swift */; };
+		2F164DAC28BA93CE00B56ACC /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DAB28BA93CE00B56ACC /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F164D9428BA931200B56ACC /* GenieAladdin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenieAladdin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F164D9728BA931200B56ACC /* GenieAladdinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieAladdinApp.swift; sourceTree = "<group>"; };
-		2F164D9928BA931200B56ACC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F164D9B28BA931500B56ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F164D9E28BA931500B56ACC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F164DA528BA937B00B56ACC /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		2F164DA728BA93B500B56ACC /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		2F164DA928BA93C600B56ACC /* WishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishesView.swift; sourceTree = "<group>"; };
+		2F164DAB28BA93CE00B56ACC /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				2F164D9728BA931200B56ACC /* GenieAladdinApp.swift */,
-				2F164D9928BA931200B56ACC /* ContentView.swift */,
 				2F164D9B28BA931500B56ACC /* Assets.xcassets */,
 				2F164D9D28BA931500B56ACC /* Preview Content */,
+				2F164DA528BA937B00B56ACC /* MyTabView.swift */,
+				2F164DA728BA93B500B56ACC /* HomePageView.swift */,
+				2F164DA928BA93C600B56ACC /* WishesView.swift */,
+				2F164DAB28BA93CE00B56ACC /* ContactView.swift */,
 			);
 			path = GenieAladdin;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F164D9A28BA931200B56ACC /* ContentView.swift in Sources */,
+				2F164DA628BA937B00B56ACC /* MyTabView.swift in Sources */,
+				2F164DAA28BA93C600B56ACC /* WishesView.swift in Sources */,
+				2F164DA828BA93B500B56ACC /* HomePageView.swift in Sources */,
+				2F164DAC28BA93CE00B56ACC /* ContactView.swift in Sources */,
 				2F164D9828BA931200B56ACC /* GenieAladdinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
