@@ -14,6 +14,7 @@
 		2F164DA828BA93B500B56ACC /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DA728BA93B500B56ACC /* HomePageView.swift */; };
 		2F164DAA28BA93C600B56ACC /* WishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DA928BA93C600B56ACC /* WishesView.swift */; };
 		2F164DAC28BA93CE00B56ACC /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DAB28BA93CE00B56ACC /* ContactView.swift */; };
+		2F164DAE28BA9E1300B56ACC /* TransforamtionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164DAD28BA9E1300B56ACC /* TransforamtionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2F164DA728BA93B500B56ACC /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		2F164DA928BA93C600B56ACC /* WishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishesView.swift; sourceTree = "<group>"; };
 		2F164DAB28BA93CE00B56ACC /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		2F164DAD28BA9E1300B56ACC /* TransforamtionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransforamtionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				2F164DA728BA93B500B56ACC /* HomePageView.swift */,
 				2F164DA928BA93C600B56ACC /* WishesView.swift */,
 				2F164DAB28BA93CE00B56ACC /* ContactView.swift */,
+				2F164DAD28BA9E1300B56ACC /* TransforamtionView.swift */,
 			);
 			path = GenieAladdin;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				2F164DA828BA93B500B56ACC /* HomePageView.swift in Sources */,
 				2F164DAC28BA93CE00B56ACC /* ContactView.swift in Sources */,
 				2F164D9828BA931200B56ACC /* GenieAladdinApp.swift in Sources */,
+				2F164DAE28BA9E1300B56ACC /* TransforamtionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
